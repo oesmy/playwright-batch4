@@ -16,4 +16,10 @@ test('test case kedua', async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+
+  // New Test case.
+  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+
+    // Test dua.
+    await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
